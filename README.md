@@ -42,8 +42,6 @@ UWSM introduces `slice` managment, UWSM slices  have 3 layers:
 
 ... and custom slice.
 
-`.desktop` entries follow XDG Autostart specification and `X-***` extensions with `X-UWSM-Slice`.
-
 You can write your own `.desktop` file with lesser amount of lines, this files are references for "best case scenario".
 
 ### Paths [`.config/gtk-3.0/`](./etc/skel/.config/gtk-3.0/) and [`./config/gtk-4.0/`](./etc/skel/.config/gtk-4.0/)
@@ -62,9 +60,9 @@ Kitty is GPU based feature-rich terminal emulator. [`Config`](./etc/skel/.config
 
 UWSM also manages proper `environment` exporting. [`Env`](./etc/skel/.config/uwsm/env.d/env/) makes it easier to deattach all the environments from compositors and also follows logic of basic `env` files.
 
-### Path [`.config/xdg-gesktop-portal/`](./etc/skel/.config/xdg-gesktop-portal/)
+### Path [`.config/xdg-desktop-portal/`](./etc/skel/.config/xdg-desktop-portal/)
 
-XDG Desktop Portal directive. Contains [`portals.conf`](./etc/skel/.config/xdg-gesktop-portal/portals.conf) with default `gtk` portal as fallback and no `impl`. With installed compositors you gonna have `<compositor>-portals.conf` for per-compositor settings.
+XDG Desktop Portal directive. Contains [`portals.conf`](./etc/skel/.config/xdg-desktop-portal/portals.conf) with default `gtk` portal as fallback and no `impl`. With installed compositors you gonna have `<compositor>-portals.conf` for per-compositor settings.
 
 ### Path [`.config/xdg-terminals.list`](./etc/skel/.config/xdg-terminals.list)
 

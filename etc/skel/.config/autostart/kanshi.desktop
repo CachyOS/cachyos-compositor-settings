@@ -10,4 +10,4 @@ StartupNotify=false
 Terminal=false
 Icon=display
 NoDisplay=true
-X-UWSM-Slice=session-graphical.slice
+Slice=session-graphical.slice

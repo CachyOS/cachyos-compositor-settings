@@ -1,16 +1,12 @@
-# monitor setup
-output "*" {
-	enable
-	mode prefered
-	transform normal
-	scale 1
-	position 0, 0
-	adaptive_sync off
-	exec notify-send -a "Kanshi" -i "Display Profile" "Prefred mode is active"
-	alias $DEFAULT
-}
-
 # profile setup
 profile default {
-	output $DEFAULT
+    output "*" {
+        enable
+        mode preferred
+        transform normal
+        scale 1
+        position 0, 0
+        adaptive_sync off
+    }
+    exec notify-send -a "Kanshi" -i "Display Profile" "Preferred mode is active"
 }
