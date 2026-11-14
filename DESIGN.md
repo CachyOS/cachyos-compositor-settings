@@ -56,8 +56,8 @@ Repository tree must follow next logic:
 README.md
 LISENCE
 /etc/
--> /skel/
---> /.config/
+-> skel/
+--> .config/
 ---> <compositor>/
 -----> config                           # imports
 -----> config/                          # cfg directory
