@@ -44,7 +44,7 @@ UWSM introduces `slice` managment, UWSM slices  have 3 layers:
 
 You can write your own `.desktop` file with lesser amount of lines, this files are references for "best case scenario".
 
-### Paths [`.config/gtk-3.0/`](./etc/skel/.config/gtk-3.0/) and [`./config/gtk-4.0/`](./etc/skel/.config/gtk-4.0/)
+### Paths [`.config/gtk-3.0/`](./etc/skel/.config/gtk-3.0/) and [`.config/gtk-4.0/`](./etc/skel/.config/gtk-4.0/)
 
 Both setting.ini are looks of `GTK` apps, hence versioned 3.0 and 4.0.
 
@@ -52,7 +52,7 @@ Both setting.ini are looks of `GTK` apps, hence versioned 3.0 and 4.0.
 
 Kanshi is a Wayland Displays and Profiles Manager. [This](./etc/skel/.config/kanshi/config) conifg file contains default profile and catch-all preset for prefered display settings.
 
-### Path [`./config/kitty/`](./etc/skel/.config/kitty)
+### Path [`.config/kitty/`](./etc/skel/.config/kitty)
 
 Kitty is GPU based feature-rich terminal emulator. [`Config`](./etc/skel/.config/kitty/kitty.conf) contains few config lines since `kitty` does not require much of configuration.
 
