@@ -11,7 +11,7 @@ Dependencies:
 compositor xdg-desktop-portal-wlr
 ```
 
-## Reposotiry tree
+## Repository tree
 
 <!-- Should be [.config/compositor/](./etc/skel/.config/compositor/)  -->
 
