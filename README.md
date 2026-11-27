@@ -20,7 +20,7 @@ xdg-terminal-exec
 kanshi
 ```
 
-## Reposotiry tree
+## Repository tree
 
 ### Path [`.config/autostart/`](./etc/skel/.config/autostart/)
 
